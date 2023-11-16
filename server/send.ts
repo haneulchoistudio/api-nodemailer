@@ -1,5 +1,5 @@
 import { SendMailOptions } from "nodemailer";
-import { createTransport } from "../server/transport";
+import { createTransport } from "./utils";
 
 type MailContent = {
     subject: SendMailOptions['subject'],

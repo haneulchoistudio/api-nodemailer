@@ -9,4 +9,8 @@ export function createTransport () {
     return transport
 }
 
+export function getEmailUser () {
+    return __env__nodeMailerUser
+}
+
 

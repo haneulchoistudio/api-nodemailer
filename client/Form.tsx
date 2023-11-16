@@ -1,14 +1,10 @@
 
+import type { FormData } from "../types";
 import React, { useState } from "react";
 import { Text } from "./validations";
 import { twMerge } from "tailwind-merge";
 import { sendEmail } from "./send";
 
-type FormData = {
-  name: string
-  email: string
-  message: string
-}
 
 const Form: React.FC = () => {
   // Placeholders by input keys
